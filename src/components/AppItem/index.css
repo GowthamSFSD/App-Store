@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.app-card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border-radius: 10px;
+  height: 120px;
+  width: 120px;
+}
+.app-logo {
+  margin-top: 10px;
+  height: 50px;
+}
+
+@media screen and (min-width:768px){
+    .app-card{
+         height: 140px;
+  width: 130px;
+    }
+}
